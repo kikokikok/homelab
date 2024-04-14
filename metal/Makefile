@@ -1,6 +1,6 @@
 .POSIX:
 
-env ?= prod
+env ?= kikok
 export KUBECONFIG = $(shell pwd)/kubeconfig.yaml
 
 default: boot cluster
