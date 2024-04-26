@@ -9,21 +9,21 @@ metal:
       hosts:
         prox1:
           {
-            ansible_host: 192.168.1.121,
+            ansible_host: 192.168.1.73,
             mac: "bc:24:11:66:72:a8",
             disk: sda,
             network_interface: eth0,
           }
         prox2:
           {
-            ansible_host: 192.168.1.122,
+            ansible_host: 192.168.1.74,
             mac: "bc:24:11:d4:1a:93",
             disk: sda,
             network_interface: eth0,
           }
         prox3:
           {
-            ansible_host: 192.168.1.123,
+            ansible_host: 192.168.1.75,
             mac: "bc:24:11:86:0d:50",
             disk: sda,
             network_interface: eth0,
@@ -32,21 +32,21 @@ metal:
       hosts:
         prox4:
           {
-            ansible_host: 192.168.1.124,
+            ansible_host: 192.168.1.76,
             mac: "bc:24:11:a1:be:a3",
             disk: sda,
             network_interface: eth0,
           }
         prox5:
           {
-            ansible_host: 192.168.1.125,
+            ansible_host: 192.168.1.77,
             mac: "bc:24:11:83:d4:82",
             disk: sda,
             network_interface: eth0,
           }
         prox6:
           {
-            ansible_host: 192.168.1.126,
+            ansible_host: 192.168.1.78,
             mac: "bc:24:11:47:56:3e",
             disk: sda,
             network_interface: eth0,
