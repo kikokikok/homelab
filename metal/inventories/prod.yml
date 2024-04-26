@@ -23,7 +23,7 @@ metal:
           }
         prox3:
           {
-            ansible_host: 192.168.1.112,
+            ansible_host: 192.168.1.69,
             mac: "bc:24:11:05:79:4c",
             disk: sda,
             network_interface: eth0,
@@ -39,14 +39,14 @@ metal:
           }
         prox5:
           {
-            ansible_host: 192.168.1.114,
+            ansible_host: 192.168.1.70,
             mac: "bc:24:11:9e:d2:6d",
             disk: sda,
             network_interface: eth0,
           }
         prox6:
           {
-            ansible_host: 192.168.1.115,
+            ansible_host: 192.168.1.71,
             mac: "bc:24:11:c2:06:38",
             disk: sda,
             network_interface: eth0,
